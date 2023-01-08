@@ -1,10 +1,10 @@
 {
-  "name": "patchcab-template",
-  "description": "Patchab module template",
+  "name": "quad-mixer",
+  "description": "Patchab quad mixer",
   "version": "1.0.0",
   "author": {
-    "name": "Your name",
-    "url": "https://your-site"
+    "name": "Josh Waller",
+    "url": "https://github.com/mdxprograms"
   },
   "license": "MIT",
   "files": [
@@ -17,14 +17,15 @@
   },
   "patchcab": [
     {
-      "name": "Module name",
+      "name": "Quad Mix",
       "file": "module",
       "size": {
-        "w": 6,
+        "w": 12,
         "h": 1
       },
       "tags": [
-        "video"
+        "mixer",
+        "quad"
       ],
       "libs": [
         "Tone"
